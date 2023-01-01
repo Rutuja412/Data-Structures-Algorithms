@@ -9,6 +9,9 @@ namespace Data_Structures_Algorithm
             Console.WriteLine("Data Structures Algorithm");
             OrderedLinkedList orderedLinkedList = new OrderedLinkedList();
             orderedLinkedList.Ordered();
+            Console.WriteLine("-------------------------------------------");
+            UnorderedLinkedList unorderedLinkedList = new UnorderedLinkedList();
+            unorderedLinkedList.Unordered();
         }
     }
 }

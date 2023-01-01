@@ -23,7 +23,7 @@ namespace Data_Structures_Algorithm
                 }
                 temp.next = node;
             }
-            Console.WriteLine("{0} : number add in list", node.data);
+            Console.WriteLine("{0} : word add in list", node.data);
         }
         public void Search(T value)
         {
@@ -39,7 +39,7 @@ namespace Data_Structures_Algorithm
             }
             if (temp == null)
             {
-                Console.WriteLine("{0}: number is not found");
+                Console.WriteLine("{0}: word is not found");
                 Add(value);
             }
         }
@@ -48,7 +48,7 @@ namespace Data_Structures_Algorithm
             Node<T> temp = this.head;
             if (temp == null)
             {
-                Console.WriteLine("No number in Linked List");
+                Console.WriteLine("No word in Linked List");
                 return;
             }
             while (temp != null)
