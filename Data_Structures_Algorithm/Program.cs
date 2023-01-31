@@ -21,6 +21,9 @@ namespace Data_Structures_Algorithm
             BubbleSort bubbleSort = new BubbleSort();
             int[] arr1 = { 5, 2, 1, 4, 3 };
             bubbleSort.Sort(arr1);
+            Console.WriteLine("________Anagram Detection ________"); 
+            Anagram anagram = new Anagram();
+            anagram.Detect();
         }
     }
 }
