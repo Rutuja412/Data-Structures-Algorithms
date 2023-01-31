@@ -17,8 +17,10 @@ namespace Data_Structures_Algorithm
             Console.WriteLine("-----------------------------------------------");
             BalancedParanthesis balancedParanthesis = new BalancedParanthesis();
             balancedParanthesis.ReadTextFile(BalancedTextPath);
-            Console.WriteLine("---------------------------------------------------------------");
-
+            Console.WriteLine("___________Bubble Sort___________________________");
+            BubbleSort bubbleSort = new BubbleSort();
+            int[] arr1 = { 5, 2, 1, 4, 3 };
+            bubbleSort.Sort(arr1);
         }
     }
 }
